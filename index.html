@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zarządzanie użytkownikami</title>
+    <script src="./script.js" type="module"></script>
+    <meta name="author" content="Jakub Łobos" />
+  </head>
+  <body>
+    <div>
+      <p>Autor: Jakub Łobos</p>
+      <div>
+        <button id="save">Zapisz do pamięci lokalnej</button>
+        <button id="add">Dodaj użytkownika</button>
+        <button id="download">Pobierz dane w formacie JSON</button>
+        <button id="reset">
+          Wyczyść pamięć lokalną i pobierz dane z serwera
+        </button>
+      </div>
+
+      <ul
+        style="display: flex; gap: 30px; max-width: 100vw; flex-wrap: wrap"
+        id="user-list"
+      ></ul>
+    </div>
+  </body>
+</html>
